@@ -1,60 +1,60 @@
-Well C10_Cy3_8bit.tif
-Well E03_Cy3_8bit.tif
-Well B10_Cy3_8bit.tif
-Well D03_Cy3_8bit.tif
-Well C03_Cy3_8bit.tif
-Well A10_Cy3_8bit.tif
-Well C07_Cy3_8bit.tif
-Well A04_Cy3_8bit.tif
-Well A03_Cy3_8bit.tif
-Well E08_Cy3_8bit.tif
-Well D11_Cy3_8bit.tif
-Well C01_Cy3_8bit.tif
-Well B02_Cy3_8bit.tif
-Well D05_Cy3_8bit.tif
-Well A02_Cy3_8bit.tif
-Well E10_Cy3_8bit.tif
-Well A06_Cy3_8bit.tif
-Well C05_Cy3_8bit.tif
-Well C09_Cy3_8bit.tif
-Well C02_Cy3_8bit.tif
-Well E05_Cy3_8bit.tif
-Well C11_Cy3_8bit.tif
-Well B11_Cy3_8bit.tif
-Well D06_Cy3_8bit.tif
-Well E01_Cy3_8bit.tif
-Well A08_Cy3_8bit.tif
-Well E02_Cy3_8bit.tif
-Well E11_Cy3_8bit.tif
-Well E09_Cy3_8bit.tif
-Well B07_Cy3_8bit.tif
-Well A07_Cy3_8bit.tif
-Well B08_Cy3_8bit.tif
-Well C12_Cy3_8bit.tif
-Well A01_Cy3_8bit.tif
-Well D08_Cy3_8bit.tif
-Well D12_Cy3_8bit.tif
-Well C08_Cy3_8bit.tif
-Well D10_Cy3_8bit.tif
-Well E04_Cy3_8bit.tif
-Well A11_Cy3_8bit.tif
-Well C06_Cy3_8bit.tif
-Well D02_Cy3_8bit.tif
-Well B03_Cy3_8bit.tif
-Well E07_Cy3_8bit.tif
-Well A12_Cy3_8bit.tif
-Well B04_Cy3_8bit.tif
-Well B09_Cy3_8bit.tif
-Well E12_Cy3_8bit.tif
-Well E06_Cy3_8bit.tif
-Well D04_Cy3_8bit.tif
-Well A09_Cy3_8bit.tif
-Well B06_Cy3_8bit.tif
-Well C04_Cy3_8bit.tif
-Well D01_Cy3_8bit.tif
-Well B01_Cy3_8bit.tif
-Well A05_Cy3_8bit.tif
-Well D09_Cy3_8bit.tif
-Well B12_Cy3_8bit.tif
-Well B05_Cy3_8bit.tif
-Well D07_Cy3_8bit.tif
+A09_Cy3_8bit.tif
+E07_Cy3_8bit.tif
+C11_Cy3_8bit.tif
+E04_Cy3_8bit.tif
+B07_Cy3_8bit.tif
+A01_Cy3_8bit.tif
+C06_Cy3_8bit.tif
+E02_Cy3_8bit.tif
+D01_Cy3_8bit.tif
+A02_Cy3_8bit.tif
+E11_Cy3_8bit.tif
+B08_Cy3_8bit.tif
+D06_Cy3_8bit.tif
+B04_Cy3_8bit.tif
+A07_Cy3_8bit.tif
+E09_Cy3_8bit.tif
+C08_Cy3_8bit.tif
+C03_Cy3_8bit.tif
+B05_Cy3_8bit.tif
+D04_Cy3_8bit.tif
+B02_Cy3_8bit.tif
+A06_Cy3_8bit.tif
+C12_Cy3_8bit.tif
+A08_Cy3_8bit.tif
+E03_Cy3_8bit.tif
+C04_Cy3_8bit.tif
+D09_Cy3_8bit.tif
+B06_Cy3_8bit.tif
+A05_Cy3_8bit.tif
+C07_Cy3_8bit.tif
+E01_Cy3_8bit.tif
+A03_Cy3_8bit.tif
+E06_Cy3_8bit.tif
+B10_Cy3_8bit.tif
+D05_Cy3_8bit.tif
+B03_Cy3_8bit.tif
+B01_Cy3_8bit.tif
+D10_Cy3_8bit.tif
+D03_Cy3_8bit.tif
+B11_Cy3_8bit.tif
+D07_Cy3_8bit.tif
+E05_Cy3_8bit.tif
+A10_Cy3_8bit.tif
+E10_Cy3_8bit.tif
+A04_Cy3_8bit.tif
+A11_Cy3_8bit.tif
+A12_Cy3_8bit.tif
+D08_Cy3_8bit.tif
+D02_Cy3_8bit.tif
+D12_Cy3_8bit.tif
+E12_Cy3_8bit.tif
+E08_Cy3_8bit.tif
+C09_Cy3_8bit.tif
+C02_Cy3_8bit.tif
+C10_Cy3_8bit.tif
+C05_Cy3_8bit.tif
+C01_Cy3_8bit.tif
+D11_Cy3_8bit.tif
+B12_Cy3_8bit.tif
+B09_Cy3_8bit.tif

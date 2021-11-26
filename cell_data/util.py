@@ -54,8 +54,10 @@ if __name__ == "__main__":
     # for filename in os.listdir(file_path):
     #     print_annotation_xml(file_path, filename, output_path)
 
-    a = open("train_aug.txt", "w")
-    for filename in os.listdir(file_path):
-        a.write(str(filename) + os.linesep)
+    lists = ['train.txt', 'train_aug.txt', 'val.txt', 'test.txt']
+    for l in lists:
+        a = open(l, 'w')
+        for filename in os.listdir(file_path):
+            a.write(str(filename) + os.linesep)
 
 
