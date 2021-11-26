@@ -6,8 +6,10 @@ import os.path
 import imageio
 from misc import imutils
 
-IMG_FOLDER_NAME = "JPEGImages"
-ANNOT_FOLDER_NAME = "Annotations"
+#IMG_FOLDER_NAME = "JPEGImages"
+#ANNOT_FOLDER_NAME = "Annotations"
+IMG_FOLDER_NAME = "data_cy3"
+ANNOT_FOLDER_NAME = "annotation"
 IGNORE = 255
 
 CAT_LIST = ['aeroplane', 'bicycle', 'bird', 'boat',
