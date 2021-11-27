@@ -48,16 +48,16 @@ if __name__ == "__main__":
     output_path = 'annotation'
 
     # prepare directory for annotation
-    # if not os.path.exists(output_path):
-    #     os.makedirs(output_path)
-    #
-    # for filename in os.listdir(file_path):
-    #     print_annotation_xml(file_path, filename, output_path)
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
 
-    lists = ['train.txt', 'train_aug.txt', 'val.txt', 'test.txt']
-    for l in lists:
-        a = open(l, 'w')
-        for filename in os.listdir(file_path):
-            a.write(str(filename) + os.linesep)
+    for filename in os.listdir(file_path):
+        print_annotation_xml(file_path, filename, output_path)
+
+    # lists = ['train.txt', 'train_aug.txt', 'val.txt', 'test.txt']
+    # for l in lists:
+    #     a = open(l, 'w')
+    #     for filename in os.listdir(file_path):
+    #         a.write(str(filename) + os.linesep)
 
 

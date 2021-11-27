@@ -12,22 +12,26 @@ IMG_FOLDER_NAME = "data_cy3"
 ANNOT_FOLDER_NAME = "annotation"
 IGNORE = 255
 
-CAT_LIST = ['aeroplane', 'bicycle', 'bird', 'boat',
-        'bottle', 'bus', 'car', 'cat', 'chair',
-        'cow', 'diningtable', 'dog', 'horse',
-        'motorbike', 'person', 'pottedplant',
-        'sheep', 'sofa', 'train',
-        'tvmonitor']
+# CAT_LIST = ['aeroplane', 'bicycle', 'bird', 'boat',
+#         'bottle', 'bus', 'car', 'cat', 'chair',
+#         'cow', 'diningtable', 'dog', 'horse',
+#         'motorbike', 'person', 'pottedplant',
+#         'sheep', 'sofa', 'train',
+#         'tvmonitor']
+CAT_LIST = ['cell']
 
 N_CAT = len(CAT_LIST)
 
 CAT_NAME_TO_NUM = dict(zip(CAT_LIST,range(len(CAT_LIST))))
 
-cls_labels_dict = np.load('voc12/cls_labels.npy', allow_pickle=True).item()
+#cls_labels_dict = np.load('voc12/cls_labels.npy', allow_pickle=True).item()
+file_path = 'cell_data/data_cy3'
+cls_labels_dict = {filename: [1] for filename in os.listdir(file_path)}
 
 def decode_int_filename(int_filename):
-    s = str(int(int_filename))
-    return s[:4] + '_' + s[4:]
+    # s = str(int(int_filename))
+    # return s[:4] + '_' + s[4:]
+    return int_filename
 
 def load_image_label_from_xml(img_name, voc12_root):
     from xml.dom import minidom
@@ -59,7 +63,8 @@ def get_img_path(img_name, voc12_root):
 
 def load_img_name_list(dataset_path):
 
-    img_name_list = np.loadtxt(dataset_path, dtype=np.int32)
+    # img_name_list = np.loadtxt(dataset_path, dtype=np.int32)
+    img_name_list = np.loadtxt(dataset_path, dtype=str)
 
     return img_name_list
 
