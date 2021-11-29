@@ -160,6 +160,7 @@ class VOC12ImageDataset(Dataset):
                 img = imutils.top_left_crop(img, self.crop_size, 0)
 
         if self.to_torch:
+            img = img.convert("RGB")
             img = imutils.HWC_to_CHW(img)
 
         return {'name': name_str, 'img': img}
@@ -204,6 +205,7 @@ class VOC12ClassificationDatasetMSF(VOC12ClassificationDataset):
             else:
                 s_img = imutils.pil_rescale(img, s, order=3)
             s_img = self.img_normal(s_img)
+            s_img = s_img.convert("RGB")
             s_img = imutils.HWC_to_CHW(s_img)
             ms_img_list.append(np.stack([s_img, np.flip(s_img, -1)], axis=0))
         if len(self.scales) == 1:
@@ -257,6 +259,7 @@ class VOC12SegmentationDataset(Dataset):
             img = imutils.top_left_crop(img, self.crop_size, 0)
             label = imutils.top_left_crop(label, self.crop_size, 255)
 
+        img = img.convert("RGB")
         img = imutils.HWC_to_CHW(img)
 
         return {'name': name, 'img': img, 'label': label}
