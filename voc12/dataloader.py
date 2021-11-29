@@ -161,8 +161,9 @@ class VOC12ImageDataset(Dataset):
 
         if self.to_torch:
             # img = img.convert("RGB")
-            print(img)
-            img = imutils.HWC_to_CHW(img)
+            # print(img)
+            stacked_img = np.stack((img,) * 3, axis=-1)
+            img = imutils.HWC_to_CHW(stacked_img)
 
         return {'name': name_str, 'img': img}
 
