@@ -160,7 +160,8 @@ class VOC12ImageDataset(Dataset):
                 img = imutils.top_left_crop(img, self.crop_size, 0)
 
         if self.to_torch:
-            img = img.convert("RGB")
+            # img = img.convert("RGB")
+            print(img)
             img = imutils.HWC_to_CHW(img)
 
         return {'name': name_str, 'img': img}
