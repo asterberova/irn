@@ -8,7 +8,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     # Environment
-    parser.add_argument("--num_workers", default=os.cpu_count()//2, type=int)
+    # parser.add_argument("--num_workers", default=os.cpu_count()//2, type=int)
+    parser.add_argument("--num_workers", default=8, type=int)
     parser.add_argument("--voc12_root", required=True, type=str,
                         help="Path to VOC 2012 Devkit, must contain ./JPEGImages as subdirectory.")
 
